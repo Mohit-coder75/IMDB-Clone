@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/bf12b6dbeb.js" crossorigin="anonymous"></script>
+  <body>
+    <div class="header">
+        <h1>IMDb Clone App</h1>
+        <span><i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #c0bfb9;"></i></span>
+        <input type="text" id="searchInput" placeholder="Search for movies..." oninput="performSearch()">
+        <span class="favorites-btn" onclick="goToFavoritesPage()">Favorites</span>
+    </div>
+   
+    <div id="movies-container" class="flex-container">
+        
+    </div>
+    
+    <script src="index.js"></script>
+    <script src="favorites/favorites.js"></script>
+   
+  </body>
+</html>

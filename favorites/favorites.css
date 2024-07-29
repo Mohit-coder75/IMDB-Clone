@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+}
+.header {
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(148, 145, 145, 0.693); 
+  }
+
+  h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #dfe840;
+   
+    
+  }
+  h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #dfe840;
+   
+    
+  }
+  #favorites-container{
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 14%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+  }
+
+  .remove-from-favorites-btn{
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #ff0000; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(241, 235, 235, 0.622);
+    overflow: hidden;
+    width: 190px;
+    margin: 20px;
+    height: 430px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card-content {
+    
+    padding: 16px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background-color: #f5f5f5; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .card:hover .title {
+    color: #ff5733; 
+  }
+  
+  .card:hover .release,
+  .card:hover .credits {
+    color: #555; 
+  }
+  
+
+  .card img {
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+        color: white;
+      
+  }
+
+  .release {
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+  .credits {
+    font-style: italic;
+    color: #888;
+  }
+
+  .go-back {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #dfe840;
+    font-size: 18px;
+}
